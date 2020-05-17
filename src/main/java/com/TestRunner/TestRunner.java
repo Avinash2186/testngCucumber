@@ -24,8 +24,8 @@ import cucumber.api.testng.TestNGCucumberRunner;
         plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",
         		"pretty", "html:target/htmlreports",
         		"json:target/cucumber.json",
-        		"junit:target/cucumber.xml"}
-        //tags = {"@searchItems"}
+        		"junit:target/cucumber.xml"},
+        tags = {"@searchItems55"}
 
         		)
 

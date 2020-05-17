@@ -12,7 +12,7 @@ Feature: Search Feature on Amazon.com
     When User searches for "Pogo"
     Then products related to search must appear
     
-    Scenario: Search Validation with Pogo
+    Scenario: Search Validation with CAPering
     Given User is on Home Page
     When User searches for "CAPering"
     Then products related to search must appear
